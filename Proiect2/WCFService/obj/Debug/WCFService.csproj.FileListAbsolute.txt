@@ -31,3 +31,14 @@ E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csprojAssemblyReference.
 E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csproj.CopyComplete
 E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.dll
 E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.pdb
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\WCFService.dll
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\WCFService.pdb
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\MyPhotos.dll
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\EntityFramework.dll
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\MyPhotos.pdb
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\MyPhotos.dll.config
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\bin\Debug\EntityFramework.xml
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\obj\Debug\WCFService.csproj.CopyComplete
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\obj\Debug\WCFService.dll
+C:\Users\Mihaela\ProiectTS.NET\Proiect2\WCFService\obj\Debug\WCFService.pdb

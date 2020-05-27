@@ -80,6 +80,17 @@ namespace MyPhotos.PhotoService
 
 			return allFilesPaths;
 		}
+		public List<Files> GetAllFiles()
+		{
+			List<Files> allFiles = new List<Files>();
+			var allFilesReturned = _photosRepository.GetAllFiles();
+			foreach (var file in allFilesReturned)
+			{
+				allFiles.Add(file);
+			}
+
+			return allFiles;
+		}
 
 		public List<Properties> GetAllProperties()
 		{

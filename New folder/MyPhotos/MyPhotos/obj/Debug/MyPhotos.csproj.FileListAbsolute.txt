@@ -42,3 +42,14 @@ E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyRef
 E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
 E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
 E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll.config
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
+C:\Users\Mihaela\ProiectTS.NET\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb

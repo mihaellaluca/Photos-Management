@@ -5,21 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Connected Services\ServiceReferencePhotos\**" />
-    <Content Remove="Connected Services\ServiceReferencePhotos\**" />
-    <EmbeddedResource Remove="Connected Services\ServiceReferencePhotos\**" />
-    <None Remove="Connected Services\ServiceReferencePhotos\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Connected Services\ServiceReferencePhotos\Reference.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Connected Services\ServiceReferencePhotos\ConnectedService.json" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
     <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
     <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
@@ -29,6 +14,10 @@
 
   <ItemGroup>
     <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
   </ItemGroup>
 
 

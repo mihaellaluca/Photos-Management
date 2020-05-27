@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proiect-TSP\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj": {}
+    "C:\\Users\\Mihaela\\ProiectTS.NET\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj": {}
   },
   "projects": {
-    "E:\\Proiect-TSP\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj": {
+    "C:\\Users\\Mihaela\\ProiectTS.NET\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proiect-TSP\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj",
+        "projectUniqueName": "C:\\Users\\Mihaela\\ProiectTS.NET\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj",
         "projectName": "RazorPagesPhotos",
-        "projectPath": "E:\\Proiect-TSP\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj",
+        "projectPath": "C:\\Users\\Mihaela\\ProiectTS.NET\\Proiect3\\RazorPagesPhotos\\RazorPagesPhotos.csproj",
         "packagesPath": "C:\\Users\\Mihaela\\.nuget\\packages\\",
-        "outputPath": "E:\\Proiect-TSP\\Proiect3\\RazorPagesPhotos\\obj\\",
+        "outputPath": "C:\\Users\\Mihaela\\ProiectTS.NET\\Proiect3\\RazorPagesPhotos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
