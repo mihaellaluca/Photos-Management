@@ -1,0 +1,44 @@
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll.config
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.dll
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.dll
+E:\Proiect-TSP\New folder\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb

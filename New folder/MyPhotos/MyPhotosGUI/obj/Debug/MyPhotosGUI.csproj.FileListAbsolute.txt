@@ -1,0 +1,34 @@
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.exe.config
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.exe
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.pdb
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.Form1.resources
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.Properties.Resources.resources
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csproj.GenerateResource.cache
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.exe
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.pdb
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csproj.CopyComplete
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.SqlServer.xml
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.exe.config
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.exe
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotosGUI.pdb
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\bin\Debug\EntityFramework.SqlServer.xml
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.Form1.resources
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.Properties.Resources.resources
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csproj.GenerateResource.cache
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.csproj.CopyComplete
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.exe
+E:\ceva TSP\Proiect-TSP\New folder\MyPhotos\MyPhotosGUI\obj\Debug\MyPhotosGUI.pdb

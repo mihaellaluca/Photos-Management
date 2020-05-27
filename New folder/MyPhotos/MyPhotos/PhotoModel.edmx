@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PhotoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PhotoModelStoreContainer">
+    <EntitySet Name="Files" EntityType="PhotoModel.Store.Files" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Properties" EntityType="PhotoModel.Store.Properties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Persons" EntityType="PhotoModel.Store.Persons" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FilesProperties" EntityType="PhotoModel.Store.FilesProperties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FilesPersons" EntityType="PhotoModel.Store.FilesPersons" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_FilesProperties_Files" Association="PhotoModel.Store.FK_FilesProperties_Files">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="FilesProperties" EntitySet="FilesProperties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesProperties_Properties" Association="PhotoModel.Store.FK_FilesProperties_Properties">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="FilesProperties" EntitySet="FilesProperties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesPersons_Files" Association="PhotoModel.Store.FK_FilesPersons_Files">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="FilesPersons" EntitySet="FilesPersons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesPersons_Persons" Association="PhotoModel.Store.FK_FilesPersons_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="FilesPersons" EntitySet="FilesPersons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="abs_path" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="created_date" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event_date" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event_location" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Properties">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="value" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="relation" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="lastname" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FilesProperties">
+    <Key>
+      <PropertyRef Name="Files_Id" />
+      <PropertyRef Name="Properties_Id" />
+    </Key>
+    <Property Name="Files_Id" Type="int" Nullable="false" />
+    <Property Name="Properties_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FilesPersons">
+    <Key>
+      <PropertyRef Name="Files_Id" />
+      <PropertyRef Name="Persons_Id" />
+    </Key>
+    <Property Name="Files_Id" Type="int" Nullable="false" />
+    <Property Name="Persons_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_FilesProperties_Files">
+    <End Role="Files" Type="PhotoModel.Store.Files" Multiplicity="1" />
+    <End Role="FilesProperties" Type="PhotoModel.Store.FilesProperties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Files">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesProperties">
+        <PropertyRef Name="Files_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesProperties_Properties">
+    <End Role="FilesProperties" Type="PhotoModel.Store.FilesProperties" Multiplicity="*" />
+    <End Role="Properties" Type="PhotoModel.Store.Properties" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesProperties">
+        <PropertyRef Name="Properties_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesPersons_Files">
+    <End Role="Files" Type="PhotoModel.Store.Files" Multiplicity="1" />
+    <End Role="FilesPersons" Type="PhotoModel.Store.FilesPersons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Files">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesPersons">
+        <PropertyRef Name="Files_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesPersons_Persons">
+    <End Role="FilesPersons" Type="PhotoModel.Store.FilesPersons" Multiplicity="*" />
+    <End Role="Persons" Type="PhotoModel.Store.Persons" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesPersons">
+        <PropertyRef Name="Persons_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="PhotoModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="PhotoModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Files" EntityType="PhotoModel.Files" />
+          <EntitySet Name="Properties" EntityType="PhotoModel.Properties" />
+          <EntitySet Name="Persons" EntityType="PhotoModel.Persons" />
+          <AssociationSet Name="FilesProperties" Association="PhotoModel.FilesProperties">
+            <End Role="Files" EntitySet="Files" />
+            <End Role="Properties" EntitySet="Properties" />
+          </AssociationSet>
+          <AssociationSet Name="FilesPersons" Association="PhotoModel.FilesPersons">
+            <End Role="Files" EntitySet="Files" />
+            <End Role="Persons" EntitySet="Persons" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Files">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="abs_path" Type="String" Nullable="false" />
+          <Property Name="created_date" Type="String" Nullable="false" />
+          <Property Name="event" Type="String" Nullable="false" />
+          <Property Name="event_date" Type="String" Nullable="false" />
+          <Property Name="event_location" Type="String" Nullable="false" />
+          <Property Name="description" Type="String" Nullable="true" />
+          <NavigationProperty Name="Properties" Relationship="PhotoModel.FilesProperties" FromRole="Files" ToRole="Properties" />
+          <NavigationProperty Name="Persons" Relationship="PhotoModel.FilesPersons" FromRole="Files" ToRole="Persons" />
+        </EntityType>
+        <EntityType Name="Properties">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" />
+          <Property Name="value" Type="String" Nullable="false" />
+          <NavigationProperty Name="Files" Relationship="PhotoModel.FilesProperties" FromRole="Properties" ToRole="Files" />
+        </EntityType>
+        <EntityType Name="Persons">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="firstname" Type="String" Nullable="false" />
+          <Property Name="relation" Type="String" Nullable="true" />
+          <Property Name="lastname" Type="String" Nullable="false" />
+          <NavigationProperty Name="Files" Relationship="PhotoModel.FilesPersons" FromRole="Persons" ToRole="Files" />
+        </EntityType>
+        <Association Name="FilesProperties">
+          <End Type="PhotoModel.Files" Role="Files" Multiplicity="*" />
+          <End Type="PhotoModel.Properties" Role="Properties" Multiplicity="*" />
+        </Association>
+        <Association Name="FilesPersons">
+          <End Type="PhotoModel.Files" Role="Files" Multiplicity="*" />
+          <End Type="PhotoModel.Persons" Role="Persons" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PhotoModelStoreContainer" CdmEntityContainer="PhotoModelContainer">
+    <EntitySetMapping Name="Files">
+      <EntityTypeMapping TypeName="IsTypeOf(PhotoModel.Files)">
+        <MappingFragment StoreEntitySet="Files">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="abs_path" ColumnName="abs_path" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="event" ColumnName="event" />
+          <ScalarProperty Name="event_date" ColumnName="event_date" />
+          <ScalarProperty Name="event_location" ColumnName="event_location" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Properties">
+      <EntityTypeMapping TypeName="IsTypeOf(PhotoModel.Properties)">
+        <MappingFragment StoreEntitySet="Properties">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="value" ColumnName="value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Persons">
+      <EntityTypeMapping TypeName="IsTypeOf(PhotoModel.Persons)">
+        <MappingFragment StoreEntitySet="Persons">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="relation" ColumnName="relation" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FilesProperties" TypeName="PhotoModel.FilesProperties" StoreEntitySet="FilesProperties">
+      <EndProperty Name="Files">
+        <ScalarProperty Name="Id" ColumnName="Files_Id" />
+      </EndProperty>
+      <EndProperty Name="Properties">
+        <ScalarProperty Name="Id" ColumnName="Properties_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FilesPersons" TypeName="PhotoModel.FilesPersons" StoreEntitySet="FilesPersons">
+      <EndProperty Name="Files">
+        <ScalarProperty Name="Id" ColumnName="Files_Id" />
+      </EndProperty>
+      <EndProperty Name="Persons">
+        <ScalarProperty Name="Id" ColumnName="Persons_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

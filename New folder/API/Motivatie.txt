@@ -1,0 +1,2 @@
+Repository-ul contine doar lucrul direct cu baza de date (query-ul) si are DbContextul.
+Service-ul este API-ul care apeleaza functiile din repository.

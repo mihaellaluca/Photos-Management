@@ -1,0 +1,28 @@
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.exe.config
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.exe
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csproj.CopyComplete
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.exe
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.exe.config
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.exe
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\WinFormApp.pdb
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.dll
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.xml
+E:\Proiect-TSP\Proiect2\WinFormApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csprojAssemblyReference.cache
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.csproj.CopyComplete
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.exe
+E:\Proiect-TSP\Proiect2\WinFormApp\obj\Debug\WinFormApp.pdb

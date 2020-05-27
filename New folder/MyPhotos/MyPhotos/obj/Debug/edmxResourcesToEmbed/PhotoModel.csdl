@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="PhotoModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="PhotoModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Files" EntityType="PhotoModel.Files" />
+    <EntitySet Name="Properties" EntityType="PhotoModel.Properties" />
+    <EntitySet Name="Persons" EntityType="PhotoModel.Persons" />
+    <AssociationSet Name="FilesProperties" Association="PhotoModel.FilesProperties">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="Properties" EntitySet="Properties" />
+    </AssociationSet>
+    <AssociationSet Name="FilesPersons" Association="PhotoModel.FilesPersons">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="abs_path" Type="String" Nullable="false" />
+    <Property Name="created_date" Type="String" Nullable="false" />
+    <Property Name="event" Type="String" Nullable="false" />
+    <Property Name="event_date" Type="String" Nullable="false" />
+    <Property Name="event_location" Type="String" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="true" />
+    <NavigationProperty Name="Properties" Relationship="PhotoModel.FilesProperties" FromRole="Files" ToRole="Properties" />
+    <NavigationProperty Name="Persons" Relationship="PhotoModel.FilesPersons" FromRole="Files" ToRole="Persons" />
+  </EntityType>
+  <EntityType Name="Properties">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" />
+    <Property Name="value" Type="String" Nullable="false" />
+    <NavigationProperty Name="Files" Relationship="PhotoModel.FilesProperties" FromRole="Properties" ToRole="Files" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" Nullable="false" />
+    <Property Name="relation" Type="String" Nullable="true" />
+    <Property Name="lastname" Type="String" Nullable="false" />
+    <NavigationProperty Name="Files" Relationship="PhotoModel.FilesPersons" FromRole="Persons" ToRole="Files" />
+  </EntityType>
+  <Association Name="FilesProperties">
+    <End Type="PhotoModel.Files" Role="Files" Multiplicity="*" />
+    <End Type="PhotoModel.Properties" Role="Properties" Multiplicity="*" />
+  </Association>
+  <Association Name="FilesPersons">
+    <End Type="PhotoModel.Files" Role="Files" Multiplicity="*" />
+    <End Type="PhotoModel.Persons" Role="Persons" Multiplicity="*" />
+  </Association>
+</Schema>

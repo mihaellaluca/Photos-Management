@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhotosModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PhotosModelStoreContainer">
+    <EntitySet Name="Files" EntityType="PhotosModel.Store.Files" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Properties" EntityType="PhotosModel.Store.Properties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Persons" EntityType="PhotosModel.Store.Persons" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FilesProperties" EntityType="PhotosModel.Store.FilesProperties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FilesPersons" EntityType="PhotosModel.Store.FilesPersons" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_FilesProperties_Files" Association="PhotosModel.Store.FK_FilesProperties_Files">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="FilesProperties" EntitySet="FilesProperties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesProperties_Properties" Association="PhotosModel.Store.FK_FilesProperties_Properties">
+      <End Role="Properties" EntitySet="Properties" />
+      <End Role="FilesProperties" EntitySet="FilesProperties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesPersons_Files" Association="PhotosModel.Store.FK_FilesPersons_Files">
+      <End Role="Files" EntitySet="Files" />
+      <End Role="FilesPersons" EntitySet="FilesPersons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilesPersons_Persons" Association="PhotosModel.Store.FK_FilesPersons_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="FilesPersons" EntitySet="FilesPersons" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="abs_path" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="created_date" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event_date" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="event_location" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Properties">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="value" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="relation" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="lastname" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FilesProperties">
+    <Key>
+      <PropertyRef Name="Files_Id" />
+      <PropertyRef Name="Properties_Id" />
+    </Key>
+    <Property Name="Files_Id" Type="int" Nullable="false" />
+    <Property Name="Properties_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FilesPersons">
+    <Key>
+      <PropertyRef Name="Files_Id" />
+      <PropertyRef Name="Persons_Id" />
+    </Key>
+    <Property Name="Files_Id" Type="int" Nullable="false" />
+    <Property Name="Persons_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_FilesProperties_Files">
+    <End Role="Files" Type="PhotosModel.Store.Files" Multiplicity="1" />
+    <End Role="FilesProperties" Type="PhotosModel.Store.FilesProperties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Files">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesProperties">
+        <PropertyRef Name="Files_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesProperties_Properties">
+    <End Role="FilesProperties" Type="PhotosModel.Store.FilesProperties" Multiplicity="*" />
+    <End Role="Properties" Type="PhotosModel.Store.Properties" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Properties">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesProperties">
+        <PropertyRef Name="Properties_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesPersons_Files">
+    <End Role="Files" Type="PhotosModel.Store.Files" Multiplicity="1" />
+    <End Role="FilesPersons" Type="PhotosModel.Store.FilesPersons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Files">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesPersons">
+        <PropertyRef Name="Files_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilesPersons_Persons">
+    <End Role="FilesPersons" Type="PhotosModel.Store.FilesPersons" Multiplicity="*" />
+    <End Role="Persons" Type="PhotosModel.Store.Persons" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FilesPersons">
+        <PropertyRef Name="Persons_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

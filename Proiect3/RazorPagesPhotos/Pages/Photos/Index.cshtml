@@ -1,0 +1,48 @@
+﻿@page
+@model RazorPagesPhotos.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].abs_path)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Photos)
+        {
+            <tr style="font-size:small">
+                <td>
+                    @Html.DisplayFor(modelItem => item.abs_path)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.@event)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.event_date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.event_location)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.abs_path">Edit</a> |
+                    <a asp-page="/Comments/List" asp-route-id="@item.abs_path">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.abs_path">Delete</a> |
+                    <a asp-page="/Comments/Create" asp-route-id="@item.abs_path">Add a property</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

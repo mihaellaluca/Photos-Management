@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPhotos", "MyPhotos\MyPhotos.csproj", "{041FC26B-564D-4600-ADA7-7DDC210461F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPhotosGUI", "MyPhotosGUI\MyPhotosGUI.csproj", "{04C13002-E539-486C-9803-238B34133423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "..\..\Proiect2\WCFService\WCFService.csproj", "{35390153-75D7-4197-A5F1-6AE96002BA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "..\..\Proiect2\WinFormApp\WinFormApp.csproj", "{2087F01C-968B-4E7C-9F96-54E26D2D0368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWCF", "..\..\Proiect2\HostWCF\HostWCF.csproj", "{AAE51306-99B2-4AF6-A620-743E8A8591F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesPhotos", "..\..\Proiect3\RazorPagesPhotos\RazorPagesPhotos.csproj", "{67BA58A5-A9F9-49DF-BB2D-7F0A94029EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041FC26B-564D-4600-ADA7-7DDC210461F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041FC26B-564D-4600-ADA7-7DDC210461F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041FC26B-564D-4600-ADA7-7DDC210461F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041FC26B-564D-4600-ADA7-7DDC210461F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C13002-E539-486C-9803-238B34133423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C13002-E539-486C-9803-238B34133423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C13002-E539-486C-9803-238B34133423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C13002-E539-486C-9803-238B34133423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35390153-75D7-4197-A5F1-6AE96002BA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35390153-75D7-4197-A5F1-6AE96002BA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35390153-75D7-4197-A5F1-6AE96002BA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35390153-75D7-4197-A5F1-6AE96002BA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2087F01C-968B-4E7C-9F96-54E26D2D0368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2087F01C-968B-4E7C-9F96-54E26D2D0368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2087F01C-968B-4E7C-9F96-54E26D2D0368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2087F01C-968B-4E7C-9F96-54E26D2D0368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE51306-99B2-4AF6-A620-743E8A8591F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE51306-99B2-4AF6-A620-743E8A8591F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE51306-99B2-4AF6-A620-743E8A8591F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE51306-99B2-4AF6-A620-743E8A8591F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BA58A5-A9F9-49DF-BB2D-7F0A94029EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BA58A5-A9F9-49DF-BB2D-7F0A94029EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BA58A5-A9F9-49DF-BB2D-7F0A94029EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BA58A5-A9F9-49DF-BB2D-7F0A94029EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD39C483-F019-4EEE-8473-159FC4771D3F}
+	EndGlobalSection
+EndGlobal

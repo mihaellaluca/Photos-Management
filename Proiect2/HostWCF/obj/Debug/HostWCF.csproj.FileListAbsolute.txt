@@ -1,0 +1,32 @@
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.exe.config
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.exe
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\WCFService.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\WCFService.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.exe
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.exe.config
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.exe
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\HostWCF.pdb
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.dll
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\WCFService.dll
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.dll
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\WCFService.pdb
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.xml
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.pdb
+E:\Proiect-TSP\Proiect2\HostWCF\bin\Debug\MyPhotos.dll.config
+E:\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+E:\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+E:\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.exe
+E:\Proiect-TSP\Proiect2\HostWCF\obj\Debug\HostWCF.pdb

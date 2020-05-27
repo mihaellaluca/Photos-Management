@@ -1,0 +1,33 @@
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\WCFService.dll
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\WCFService.pdb
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect\Proiect2\WCFService\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect\Proiect2\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect\Proiect2\WCFService\obj\Debug\WCFService.csproj.CopyComplete
+E:\ceva TSP\Proiect\Proiect2\WCFService\obj\Debug\WCFService.dll
+E:\ceva TSP\Proiect\Proiect2\WCFService\obj\Debug\WCFService.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\WCFService.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\WCFService.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\EntityFramework.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.pdb
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.dll.config
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\bin\Debug\EntityFramework.xml
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csproj.CopyComplete
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.dll
+E:\ceva TSP\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.pdb
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\WCFService.dll
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\WCFService.pdb
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.dll
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\EntityFramework.dll
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.pdb
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\MyPhotos.dll.config
+E:\Proiect-TSP\Proiect2\WCFService\bin\Debug\EntityFramework.xml
+E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache
+E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.csproj.CopyComplete
+E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.dll
+E:\Proiect-TSP\Proiect2\WCFService\obj\Debug\WCFService.pdb
